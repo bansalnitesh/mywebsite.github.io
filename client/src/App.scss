@@ -1,0 +1,360 @@
+$color1: #171c28;
+
+#loader{
+  width: 20%;
+  margin: 0 auto;
+  align-self: center;
+  vertical-align: baseline;
+  z-index: 1000;
+  margin: 12% 40% 12% 40%;
+}
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: $color1;
+  height: 80px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+  padding-left: 50px;
+  padding-right: 50px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  
+.header-shadow{
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#logo img{
+  height: 45px;
+}
+}
+button{
+  background-color: transparentize($color: #171c28, $amount: .8);
+  padding: 5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: rgb(168, 178, 209) 1px solid;
+  color: white;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+button:hover{
+  background-color: #0000003d;
+}
+
+
+.dxVzdv{
+  width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: rgb(168, 178, 209);
+}
+.cJDQMh {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.cJDQMh::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  background-color: rgb(168, 178, 209);
+  margin: 0px auto;
+}
+.jZDtYm {
+  padding: 10px;
+}
+a {
+  display: inline-block;
+  text-decoration-skip-ink: auto;
+  color: inherit;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+li {
+  text-align: -webkit-match-parent;
+}
+
+#content{
+    font-size: 24px;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 100vh;
+    counter-reset: section 0;
+    padding: 200px 170px;
+    margin: 0px auto;
+    .screen{
+      height: 100vh;
+    }
+    #screen0{
+      #name, #occupation{
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 1;
+        color: #c0c1c5;
+      }
+      #quick_info{
+        font-size: 20px;
+        width: 60%;
+        margin-top: 17px;
+      }
+      #my_work{
+        margin-top: 30px;
+      }
+      #fullname{
+        color: #757880;
+      }
+      #occupation{
+        color: #3b414d;
+      }
+      #resume{
+        margin-left: 15px;
+      }  
+    }
+    #about{
+      font-size: 16.5px;
+      #about_me{
+        display: flex;
+        justify-content: space-between;
+        -webkit-box-align: center;
+    align-items: flex-start;
+        .myphoto{
+          max-width: 27vw;
+          margin-top: 20px;
+        }
+        .about_paragraph{
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+        #about_info{
+          width: 60%;
+          max-width: 480px;
+        }
+      }
+
+    }
+    #screen2{
+      #skill_set{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+      }
+      .skills_box{
+        flex: 1 1 0px;
+        border: rgb(168, 178, 209) 2px solid;
+        height: 250px;
+        border-radius: 5px;
+        max-width: 32%;
+        img{
+          width: 33%;
+          margin: 0px auto;
+        }
+      }
+    }
+}
+#projects{
+  height: auto !important;
+}
+.col-lg-4{
+  padding-left: 0px !important;
+  padding-right: 8px !important;
+  padding-bottom: 15px;
+}
+.card{
+  height: 270px;
+  background-color: #222733;
+  padding: 12px;
+  font-size: 15.5px;
+  .card-content{
+    height: 100%;
+  }
+  .card-title{
+    font-weight: bold;
+  }
+  body{
+    background: none;
+  }
+  #table {
+    display: table;
+    margin: auto 0px;
+    font-size: 14.4px;
+    ul#horizontal-list {
+      list-style: none;
+      margin: 0px !important;
+      padding: 0px !important;
+      }
+      ul#horizontal-list li {
+        display: inline;
+        margin-right: 10px;
+      }
+  }
+  .btn{
+    position: relative;
+    background-color: #171b25;
+    border: rgb(37, 41, 53) 1px solid;
+    margin-top: 16px !important;
+  }
+  .btn:hover{
+    background-color: #0000003d;
+  }
+}
+#contact{
+  margin-top: 300px;
+  text-align: left;
+  height: auto !important;
+  p, label{
+    font-size: 16px;
+  }
+  i{
+    font-size: 20px;
+    margin-top: 2px !important;
+    margin-right: 10px;
+  }
+  ul li{
+    display: flex;
+    
+  }
+}
+.hide{
+  display: none;
+}
+footer{
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+  padding-top: 15px;
+.social-div{
+  justify-content: space-evenly;
+}
+.footer-copyright{
+  margin-top: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+}
+
+$breakpoint-tablet: 768px;
+$breakpoint-mobile: 600px;
+@media (max-width: $breakpoint-tablet) {
+  #content .screen {
+    height: 80vh;
+}
+  #content{
+    padding: 140px 70px;
+  }
+  #contact{
+    width: 90%;
+  }
+  .dxVzdv{
+    left: 20px;
+  }
+  .hide{
+    display: block;
+  }
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+}
+@media (max-width: $breakpoint-mobile) {
+  .dxVzdv{
+    display: none;
+  }
+  #content{
+    padding: 120px 40px 10px;
+  }
+  #content {
+    .screen{
+      height: auto;
+      margin-bottom: 150px;
+    }
+    #contact{
+      width: 100%;
+      margin-top: 150px;
+    }
+    #screen0 {
+      #occupation, #name{
+    font-size: 35px !important;
+  }
+  #quick_info{
+    width: 90%;
+  }
+}
+    #about #about_me{
+      flex-direction: column;
+      #about_info{
+        width: 100%;
+      }
+      .myphoto{
+        width: 80%;
+        margin: 0px auto;
+        max-width: 80vw;
+      }
+    }
+}
+}
+
+
+
